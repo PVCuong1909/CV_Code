@@ -1,0 +1,31 @@
+:root {
+    --black-color : #000;
+    --white-color : #fff;
+}
+
+* {
+    box-sizing: inherit; /* kế thừa từ thẻ chứa nó , box-sizing : bao gồm các margin, padding trong phần tử*/
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6 rem;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap; /* độ dài vượt quá màn hình tự động xuống hàng*/
+}
+
